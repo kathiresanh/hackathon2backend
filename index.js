@@ -104,4 +104,4 @@ app.get('/getproduct', async function (req, res) {
      console.log(error)
     }
 })
-app.listen(3001)
+app.listen(process.env.PORT || 3001)
